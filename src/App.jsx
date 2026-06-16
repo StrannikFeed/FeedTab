@@ -1,16 +1,14 @@
 import React, { useState } from 'react';
-
+import TimeBlock from './components/TimeBlock';
+import ImageBlock from './components/ImageBlock';
+import './styles/App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <h1>Привет из React!</h1>
-      <p>Счёт: {count}</p>
-      <button onClick={() => setCount(count + 1)}>
-        Нажми меня
-      </button>
+    <div className='app'>
+      <TimeBlock />
+      <ImageBlock />
     </div>
   );
 }

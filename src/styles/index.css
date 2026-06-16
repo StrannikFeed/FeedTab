@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 29vh;
+}
