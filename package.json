@@ -10,13 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@crxjs/vite-plugin": "^2.6.1",
     "@types/chrome": "^0.1.43",
     "idb": "^8.0.3",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },
   "devDependencies": {
+    "@crxjs/vite-plugin": "^2.7.0",
     "@eslint/js": "^10.0.1",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
